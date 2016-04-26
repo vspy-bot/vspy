@@ -4,7 +4,10 @@ node_js:
 deploy:
   provider: releases
   skip_cleanup: true
+  api_key:
+    secure: cSVfcmqHychEOSP+9kZfNdPZ540j1uwKff4SgV0y+RQzYDDFrM3NQJdaSpH2JLWawO/xvmfoAhaXeqlPDFbt2xqpdg/neXO6YKu3Mz263ESv2sIMVxJmRM5zdey1114JwauJkxdIhT3iSMOT/IAgJptkUKn0sTUKmoz35PlmSiTII0A9n3YX7NBiRCvMF0XKEOkx2d+kZAo5Q0fgYrLTCqDSYIfKhKxV5IkeUsmtb2WZkqJpR4wZ7aTCxkU3Uq924ksOgQ2YhA0HAyfJRaDWPvZL+0Pcs5J6tQq2MdQ6wCoiS4ezxb1ExFpjXgIESErTx/MMMtpz7vl1Rqjn01zH34kkrGnkc1ruyLA6HUH2fF5hjhBv63UhnGnMV8+QDQpVwdNRu+lkf57YJbtfgbvLsctLmdSJneWB28xY5Ean2VyJXMGQ7ufw1eK9UxcOe7y3QadQ0kxozNfr/bf1fW3sfzH1Gg/nOatXFIKOPyKFH94kwLhYlwtvIrtdKDFps54LhyfFku25g1wYRJd2uXpm9rx3IVkN4XL3V8T6ufn4uawReClWyzcChk753FOrEHAuLeFlQLIB/9gLvrXSnDKmO/HHZlqDrdEri4VmcWGVyZCx7DDjcF8k6wvGqTPA++Dr5h8G0rT+9xWOD+nNwJA/g+PJjFEO6sAY508C7PcYQiU=
   file: bundle.js
   on:
     tags: true
+    repo: vspy-bot/vspy
 
