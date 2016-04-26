@@ -1,0 +1,19 @@
+{
+	"name" : "vspy", 
+	"description" : "Just another JavaScript video spy. ", 
+	"homepage" : "https://github.com/A-Circle-Zhang/vspy", 
+	"version" : "0.1.0-1", 
+	"bugs" : "https://github.com/A-Circle-Zhang/vspy/issues", 
+	"author" : "A-Circle-Zhang", 
+	"repository" : "A-Circle-Zhang/vspy", 
+	"dependencies" : {
+	}, 
+	"devDependencies" : {
+		"browserify" : "13.x"
+	}, 
+	"scripts" : {
+		"test" : "./node_modules/.bin/browserify src/index.js -o bundle.js"
+	}
+}
+
+
