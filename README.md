@@ -1,2 +1,2 @@
 # vspy
-just another JavaScript video downloader.
+Just another JavaScript video downloader.
