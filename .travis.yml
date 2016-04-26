@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '5'
+deploy:
+  provider: releases
+  skip_cleanup: true
+  file: bundle.js
+  on:
+    tags: true
+
